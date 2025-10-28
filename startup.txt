@@ -1,0 +1,1 @@
+gunicorn --bind 0.0.0.0 --workers 4 --timeout 1200 --access-logfile - --error-logfile - app:app
